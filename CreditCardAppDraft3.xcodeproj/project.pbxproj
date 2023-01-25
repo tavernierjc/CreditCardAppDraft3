@@ -3,19 +3,57 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D11741E277D436B0092C8C1 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D11741D277D436B0092C8C1 /* SettingsTableViewController.swift */; };
+		7D1CD15C277BF17500D9F294 /* TransactionDetails ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1CD15B277BF17500D9F294 /* TransactionDetails ViewController.swift */; };
+		7D77DAF7278171E500E67790 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D77DAF6278171E500E67790 /* ProfileTableViewController.swift */; };
+		7D77DAFC2781823900E67790 /* AddyChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D77DAFB2781823900E67790 /* AddyChangeViewController.swift */; };
+		7D77DAFE2781A1D900E67790 /* PhoneVerifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D77DAFD2781A1D800E67790 /* PhoneVerifyViewController.swift */; };
+		7D77DB032781A8DE00E67790 /* EmailEditChangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D77DB022781A8DE00E67790 /* EmailEditChangeViewController.swift */; };
+		7D77DB052781AC0B00E67790 /* PhoneEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D77DB042781AC0B00E67790 /* PhoneEditViewController.swift */; };
+		7D77DB072781BDF000E67790 /* TransactionSettingaTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D77DB062781BDF000E67790 /* TransactionSettingaTableViewController.swift */; };
+		7D77DB0B278A6E2500E67790 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D77DB0A278A6E2400E67790 /* APIRequest.swift */; };
+		7D91E924275B1B920099CC57 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D91E923275B1B920099CC57 /* MyTableViewController.swift */; };
+		7D91E928275EE5870099CC57 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D91E927275EE5870099CC57 /* CustomTableViewCell.swift */; };
+		7D91E92C27656D2E0099CC57 /* HomeScreenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D91E92B27656D2E0099CC57 /* HomeScreenTableViewCell.swift */; };
 		7D9495E02725A5E80076D51D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9495DF2725A5E80076D51D /* AppDelegate.swift */; };
 		7D9495E22725A5E80076D51D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9495E12725A5E80076D51D /* SceneDelegate.swift */; };
 		7D9495E42725A5E80076D51D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9495E32725A5E80076D51D /* ViewController.swift */; };
 		7D9495E72725A5E80076D51D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D9495E52725A5E80076D51D /* Main.storyboard */; };
 		7D9495E92725A5E90076D51D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D9495E82725A5E90076D51D /* Assets.xcassets */; };
 		7D9495EC2725A5E90076D51D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D9495EA2725A5E90076D51D /* LaunchScreen.storyboard */; };
+		7D9495F52725A7710076D51D /* Signup1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9495F42725A7710076D51D /* Signup1ViewController.swift */; };
+		7D9496072725D5900076D51D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7D9496062725D5900076D51D /* GoogleService-Info.plist */; };
+		7D9496232725EE660076D51D /* Signup2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9496222725EE660076D51D /* Signup2ViewController.swift */; };
+		7D9496272725EF0A0076D51D /* Signup3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9496262725EF0A0076D51D /* Signup3ViewController.swift */; };
+		7D94962C2725EF2F0076D51D /* Signup4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D94962B2725EF2F0076D51D /* Signup4ViewController.swift */; };
+		7D949646272655E60076D51D /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D949645272655E60076D51D /* UIColor+Hex.swift */; };
+		7D94964A2728CB220076D51D /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9496492728CB220076D51D /* HomeScreenViewController.swift */; };
+		7D94964F274EB9940076D51D /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D94964E274EB9940076D51D /* SplashScreen.swift */; };
+		7D949652274EF75A0076D51D /* AddyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D949651274EF75A0076D51D /* AddyViewController.swift */; };
+		7D94966C274F60F20076D51D /* DateSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D94966B274F60F20076D51D /* DateSelectViewController.swift */; };
+		7DCEE16927813D47005CFE16 /* NotifictionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCEE16827813D47005CFE16 /* NotifictionsTableViewController.swift */; };
+		7DCEE16B27815D64005CFE16 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DCEE16A27815D64005CFE16 /* ProfileViewController.swift */; };
+		C575DFBEC5A42D1E5D9DBC63 /* Pods_CreditCardAppDraft3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB58DD720CF996FCE6994DEE /* Pods_CreditCardAppDraft3.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		262A72E36D47833137A5FBA6 /* Pods-CreditCardAppDraft3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreditCardAppDraft3.debug.xcconfig"; path = "Target Support Files/Pods-CreditCardAppDraft3/Pods-CreditCardAppDraft3.debug.xcconfig"; sourceTree = "<group>"; };
+		7D11741D277D436B0092C8C1 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		7D1CD15B277BF17500D9F294 /* TransactionDetails ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "TransactionDetails ViewController.swift"; path = "AfterSignInViewControllers/TransactionDetails ViewController.swift"; sourceTree = "<group>"; };
+		7D77DAF6278171E500E67790 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileTableViewController.swift; path = AfterSignInViewControllers/ProfileTableViewController.swift; sourceTree = "<group>"; };
+		7D77DAFB2781823900E67790 /* AddyChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddyChangeViewController.swift; sourceTree = "<group>"; };
+		7D77DAFD2781A1D800E67790 /* PhoneVerifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PhoneVerifyViewController.swift; path = AfterSignInViewControllers/PhoneVerifyViewController.swift; sourceTree = "<group>"; };
+		7D77DB022781A8DE00E67790 /* EmailEditChangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EmailEditChangeViewController.swift; path = AfterSignInViewControllers/EmailEditChangeViewController.swift; sourceTree = "<group>"; };
+		7D77DB042781AC0B00E67790 /* PhoneEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PhoneEditViewController.swift; path = AfterSignInViewControllers/PhoneEditViewController.swift; sourceTree = "<group>"; };
+		7D77DB062781BDF000E67790 /* TransactionSettingaTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TransactionSettingaTableViewController.swift; path = AfterSignInViewControllers/TransactionSettingaTableViewController.swift; sourceTree = "<group>"; };
+		7D77DB0A278A6E2400E67790 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		7D91E923275B1B920099CC57 /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		7D91E927275EE5870099CC57 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		7D91E92B27656D2E0099CC57 /* HomeScreenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenTableViewCell.swift; sourceTree = "<group>"; };
 		7D9495DC2725A5E80076D51D /* CreditCardAppDraft3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreditCardAppDraft3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D9495DF2725A5E80076D51D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7D9495E12725A5E80076D51D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +62,20 @@
 		7D9495E82725A5E90076D51D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D9495EB2725A5E90076D51D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D9495ED2725A5E90076D51D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D9495F42725A7710076D51D /* Signup1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup1ViewController.swift; sourceTree = "<group>"; };
+		7D9496062725D5900076D51D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7D9496222725EE660076D51D /* Signup2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup2ViewController.swift; sourceTree = "<group>"; };
+		7D9496262725EF0A0076D51D /* Signup3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup3ViewController.swift; sourceTree = "<group>"; };
+		7D94962B2725EF2F0076D51D /* Signup4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup4ViewController.swift; sourceTree = "<group>"; };
+		7D949645272655E60076D51D /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		7D9496492728CB220076D51D /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		7D94964E274EB9940076D51D /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		7D949651274EF75A0076D51D /* AddyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddyViewController.swift; sourceTree = "<group>"; };
+		7D94966B274F60F20076D51D /* DateSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateSelectViewController.swift; sourceTree = "<group>"; };
+		7DCEE16827813D47005CFE16 /* NotifictionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifictionsTableViewController.swift; sourceTree = "<group>"; };
+		7DCEE16A27815D64005CFE16 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ProfileViewController.swift; path = AfterSignInViewControllers/ProfileViewController.swift; sourceTree = "<group>"; };
+		CA2275D9388D8D61CC3B5C57 /* Pods-CreditCardAppDraft3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CreditCardAppDraft3.release.xcconfig"; path = "Target Support Files/Pods-CreditCardAppDraft3/Pods-CreditCardAppDraft3.release.xcconfig"; sourceTree = "<group>"; };
+		CB58DD720CF996FCE6994DEE /* Pods_CreditCardAppDraft3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CreditCardAppDraft3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +83,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C575DFBEC5A42D1E5D9DBC63 /* Pods_CreditCardAppDraft3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C6895A1B3070C8EFDEAFC4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				262A72E36D47833137A5FBA6 /* Pods-CreditCardAppDraft3.debug.xcconfig */,
+				CA2275D9388D8D61CC3B5C57 /* Pods-CreditCardAppDraft3.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6E898905D4676D28A914E30A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB58DD720CF996FCE6994DEE /* Pods_CreditCardAppDraft3.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7D9495D32725A5E80076D51D = {
 			isa = PBXGroup;
 			children = (
 				7D9495DE2725A5E80076D51D /* CreditCardAppDraft3 */,
 				7D9495DD2725A5E80076D51D /* Products */,
+				4C6895A1B3070C8EFDEAFC4D /* Pods */,
+				6E898905D4676D28A914E30A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +128,55 @@
 		7D9495DE2725A5E80076D51D /* CreditCardAppDraft3 */ = {
 			isa = PBXGroup;
 			children = (
+				7D9496482728CAFA0076D51D /* AfterSignInViewControllers */,
+				7D9496252725EEBE0076D51D /* SignupViewControllers */,
 				7D9495DF2725A5E80076D51D /* AppDelegate.swift */,
 				7D9495E12725A5E80076D51D /* SceneDelegate.swift */,
 				7D9495E32725A5E80076D51D /* ViewController.swift */,
 				7D9495E52725A5E80076D51D /* Main.storyboard */,
+				7D77DB062781BDF000E67790 /* TransactionSettingaTableViewController.swift */,
+				7D77DB042781AC0B00E67790 /* PhoneEditViewController.swift */,
+				7D77DB022781A8DE00E67790 /* EmailEditChangeViewController.swift */,
+				7D77DAFD2781A1D800E67790 /* PhoneVerifyViewController.swift */,
+				7D77DAF6278171E500E67790 /* ProfileTableViewController.swift */,
+				7DCEE16A27815D64005CFE16 /* ProfileViewController.swift */,
+				7D1CD15B277BF17500D9F294 /* TransactionDetails ViewController.swift */,
+				7D91E927275EE5870099CC57 /* CustomTableViewCell.swift */,
 				7D9495E82725A5E90076D51D /* Assets.xcassets */,
 				7D9495EA2725A5E90076D51D /* LaunchScreen.storyboard */,
 				7D9495ED2725A5E90076D51D /* Info.plist */,
+				7D9496062725D5900076D51D /* GoogleService-Info.plist */,
+				7D949645272655E60076D51D /* UIColor+Hex.swift */,
+				7D77DB0A278A6E2400E67790 /* APIRequest.swift */,
 			);
 			path = CreditCardAppDraft3;
+			sourceTree = "<group>";
+		};
+		7D9496252725EEBE0076D51D /* SignupViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7D9495F42725A7710076D51D /* Signup1ViewController.swift */,
+				7D9496222725EE660076D51D /* Signup2ViewController.swift */,
+				7D9496262725EF0A0076D51D /* Signup3ViewController.swift */,
+				7D94962B2725EF2F0076D51D /* Signup4ViewController.swift */,
+				7D94964E274EB9940076D51D /* SplashScreen.swift */,
+				7D94966B274F60F20076D51D /* DateSelectViewController.swift */,
+				7D949651274EF75A0076D51D /* AddyViewController.swift */,
+			);
+			path = SignupViewControllers;
+			sourceTree = "<group>";
+		};
+		7D9496482728CAFA0076D51D /* AfterSignInViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7D9496492728CB220076D51D /* HomeScreenViewController.swift */,
+				7D91E923275B1B920099CC57 /* MyTableViewController.swift */,
+				7D91E92B27656D2E0099CC57 /* HomeScreenTableViewCell.swift */,
+				7DCEE16827813D47005CFE16 /* NotifictionsTableViewController.swift */,
+				7D11741D277D436B0092C8C1 /* SettingsTableViewController.swift */,
+				7D77DAFB2781823900E67790 /* AddyChangeViewController.swift */,
+			);
+			path = AfterSignInViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D9495F02725A5E90076D51D /* Build configuration list for PBXNativeTarget "CreditCardAppDraft3" */;
 			buildPhases = (
+				9C37EDBD494A76E93890343B /* [CP] Check Pods Manifest.lock */,
 				7D9495D82725A5E80076D51D /* Sources */,
 				7D9495D92725A5E80076D51D /* Frameworks */,
 				7D9495DA2725A5E80076D51D /* Resources */,
+				C9CF1C4F9E4A793AA4F0C2A9 /* [CP] Embed Pods Frameworks */,
+				3AE3C4DF020A50BE7C6BA987 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,19 +242,102 @@
 				7D9495EC2725A5E90076D51D /* LaunchScreen.storyboard in Resources */,
 				7D9495E92725A5E90076D51D /* Assets.xcassets in Resources */,
 				7D9495E72725A5E80076D51D /* Main.storyboard in Resources */,
+				7D9496072725D5900076D51D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AE3C4DF020A50BE7C6BA987 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CreditCardAppDraft3/Pods-CreditCardAppDraft3-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CreditCardAppDraft3/Pods-CreditCardAppDraft3-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CreditCardAppDraft3/Pods-CreditCardAppDraft3-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C37EDBD494A76E93890343B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CreditCardAppDraft3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C9CF1C4F9E4A793AA4F0C2A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CreditCardAppDraft3/Pods-CreditCardAppDraft3-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CreditCardAppDraft3/Pods-CreditCardAppDraft3-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CreditCardAppDraft3/Pods-CreditCardAppDraft3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7D9495D82725A5E80076D51D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D949652274EF75A0076D51D /* AddyViewController.swift in Sources */,
+				7D77DB052781AC0B00E67790 /* PhoneEditViewController.swift in Sources */,
+				7D77DB0B278A6E2500E67790 /* APIRequest.swift in Sources */,
+				7D91E924275B1B920099CC57 /* MyTableViewController.swift in Sources */,
+				7D91E928275EE5870099CC57 /* CustomTableViewCell.swift in Sources */,
+				7D94964F274EB9940076D51D /* SplashScreen.swift in Sources */,
+				7D94966C274F60F20076D51D /* DateSelectViewController.swift in Sources */,
+				7D9496272725EF0A0076D51D /* Signup3ViewController.swift in Sources */,
+				7D77DAFE2781A1D900E67790 /* PhoneVerifyViewController.swift in Sources */,
+				7D77DAF7278171E500E67790 /* ProfileTableViewController.swift in Sources */,
+				7D77DB072781BDF000E67790 /* TransactionSettingaTableViewController.swift in Sources */,
+				7DCEE16927813D47005CFE16 /* NotifictionsTableViewController.swift in Sources */,
+				7D11741E277D436B0092C8C1 /* SettingsTableViewController.swift in Sources */,
+				7D77DAFC2781823900E67790 /* AddyChangeViewController.swift in Sources */,
+				7D949646272655E60076D51D /* UIColor+Hex.swift in Sources */,
+				7DCEE16B27815D64005CFE16 /* ProfileViewController.swift in Sources */,
+				7D9495F52725A7710076D51D /* Signup1ViewController.swift in Sources */,
+				7D9496232725EE660076D51D /* Signup2ViewController.swift in Sources */,
 				7D9495E42725A5E80076D51D /* ViewController.swift in Sources */,
+				7D94964A2728CB220076D51D /* HomeScreenViewController.swift in Sources */,
 				7D9495E02725A5E80076D51D /* AppDelegate.swift in Sources */,
+				7D91E92C27656D2E0099CC57 /* HomeScreenTableViewCell.swift in Sources */,
+				7D1CD15C277BF17500D9F294 /* TransactionDetails ViewController.swift in Sources */,
 				7D9495E22725A5E80076D51D /* SceneDelegate.swift in Sources */,
+				7D94962C2725EF2F0076D51D /* Signup4ViewController.swift in Sources */,
+				7D77DB032781A8DE00E67790 /* EmailEditChangeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,9 +481,11 @@
 		};
 		7D9495F12725A5E90076D51D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 262A72E36D47833137A5FBA6 /* Pods-CreditCardAppDraft3.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LZZSF9568W;
 				INFOPLIST_FILE = CreditCardAppDraft3/Info.plist;
@@ -295,16 +495,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Com.Tavernier.CreditCardAppDraft3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7D9495F22725A5E90076D51D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA2275D9388D8D61CC3B5C57 /* Pods-CreditCardAppDraft3.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LZZSF9568W;
 				INFOPLIST_FILE = CreditCardAppDraft3/Info.plist;
@@ -314,8 +517,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Com.Tavernier.CreditCardAppDraft3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
